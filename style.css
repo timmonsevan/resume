@@ -79,6 +79,20 @@ table th {
   margin-bottom: 3%;
 }
 
+.contact {
+  display: flex;
+  gap: 3%;
+  padding: 0rem 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 768px) {
   body {
     padding: 1.25rem;
