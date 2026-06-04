@@ -66,6 +66,19 @@ table th {
   white-space: nowrap;
 }
 
+.skilltbl {
+  display: flex;
+  padding: 0.5rem 0rem;
+}
+
+.js, .tdd {
+  font-size: .72rem;
+}
+
+.bah {
+  margin-bottom: 3%;
+}
+
 @media (max-width: 768px) {
   body {
     padding: 1.25rem;
